@@ -1,0 +1,15 @@
+{
+	"name": "No friend playing icon",
+	"author": "Luna-Terra-CG",
+	"target": "Snippet",
+	"version": "v1.0",
+	"description": "Removes the steam profile icon showen on the homescreen when a friend is playing a game you own",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
