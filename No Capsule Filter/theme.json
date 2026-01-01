@@ -1,11 +1,15 @@
 {
-  "name": "No Capsule Filter",
-  "manifest_version": 8,
-  "version": "v1.0",
-  "author": "Luna-Terra-CG",
-  "inject": {
-    "shared.css": [
-      "bigpicture"
-    ]
-  },
+	"name": "No Capsule Filter",
+	"author": "Luna-Terra-CG",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
 }
