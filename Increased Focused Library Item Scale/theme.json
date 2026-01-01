@@ -1,0 +1,12 @@
+{
+  "name": "Increased Focused Library Item Scale",
+  "manifest_version": 8,
+  "version": "v1.0",
+  "author": "Luna-Terra-CG, smithumble",
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  },
+  "id": "aae7ed32-d7a5-4d1e-a5f8-436bc492e116"
+}

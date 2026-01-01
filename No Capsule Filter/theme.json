@@ -1,0 +1,11 @@
+{
+  "name": "No Capsule Filter",
+  "manifest_version": 8,
+  "version": "v1.0",
+  "author": "Luna-Terra-CG",
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  },
+}

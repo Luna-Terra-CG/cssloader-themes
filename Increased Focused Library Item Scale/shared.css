@@ -1,0 +1,57 @@
+._35iRep_MLGWeAmkLbeny7R {
+    display: none;
+}
+._3MdH5Czolhh5rC_nofUlcQ {
+    padding: 19px 2.8vw 16px 2.8vw;
+}
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+    z-index: 3000;
+}
+
+/*=============================================
+=             Library Item Box                =
+=============================================*/
+
+/* Focus Landscape */
+.BasicUI .LibraryItemBox.Focusable:focus.Landscape {
+    transform: scale(0.9);
+}
+
+/* Focus Portrait */
+.BasicUI .LibraryItemBox.Focusable:focus  {
+    transform: scale(0.9);
+}
+
+/* Hover Landscape */
+.BasicUI ._54PuCatl_tYG836TOs4Mv .LibraryItemBox:hover.Landscape, 
+.BasicUI ._54PuCatl_tYG836TOs4Mv .LibraryItemBox._2YsY_x7hLyKlUqjX9bhn0R.Landscape  {
+    transform: scale(0.9);
+}
+
+/* Hover Portrait */
+.BasicUI ._54PuCatl_tYG836TOs4Mv .LibraryItemBox:hover:not(.Landscape), 
+.BasicUI ._54PuCatl_tYG836TOs4Mv .LibraryItemBox._2YsY_x7hLyKlUqjX9bhn0R:not(.Landscape) {
+    transform: scale(0.9);
+}
+
+/*=============================================
+=        Library Item Box Subscript           =
+=============================================*/
+
+.LibraryItemBox.gpfocus .LibraryItemBoxSubscript {
+    margin-top: 0;
+}
+
+/*=============================================
+=                  Banner                     =
+=============================================*/
+
+/* Focus */
+:focus~.AppPortraitBannerContainer {
+    transform: scale(0.9);
+}
+
+/* Hover */
+._1pwP4eeP1zQD7PEgmsep0W._54PuCatl_tYG836TOs4Mv:not(._3Lu_5jVxDAvsdeGpBzaQAt):hover .AppPortraitBannerContainer {
+    transform: scale(0.9);
+}
