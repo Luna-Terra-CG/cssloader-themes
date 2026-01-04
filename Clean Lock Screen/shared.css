@@ -1,0 +1,74 @@
+/* Input Background */
+._3fJq6rBJ7S5sNtyQfIfgoF {
+    backdrop-filter: blur(var(--lt-cls-blur));
+    background: var(--lt-cls-ibg-parse);
+}
+/* Input Roundness */
+.lockscreen_Indicators_3fJq6 {
+    border-radius: var(--lt-cls-ro);
+}
+.lockscreen_Container_3rFFU {
+    background: var(--lt-cls-bg);
+    background-size: cover;
+}
+/* Input Dots */
+._duAGi5fn_DigitIndicator{
+    border-color: var(--lt-cls-ui);
+    background: rgba(0, 0, 0, 0);
+}
+._duAGi5fn_DigitIndicator._duAGi5fn_Filled {
+    border-color: var(--lt-cls-fi);
+    background: var(--lt-cls-fi);
+}
+
+/* Profile picture */
+.lockscreen_Details_aLaNw > div img {
+    display: none;
+}
+/* Panel Background */
+.aLaNwAEcdBFnXVdc4Nzix ._1Ewy74JD3THErSWk9wSliJ {
+    position: fixed;
+    top: 0;
+    background: var(--lt-cls-ibg-parse);
+    backdrop-filter: blur(var(--lt-cls-blur));
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    vertical-align: top;
+    align-items: start;
+}
+.aLaNwAEcdBFnXVdc4Nzix .vNjDQRABe6lwA6tOpBefX {
+    display: none;
+}
+/* Panel text */
+.aLaNwAEcdBFnXVdc4Nzix ._3aUT84qO5C3sjfj8G8hIKA {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 2.3em;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.aLaNwAEcdBFnXVdc4Nzix ._3aUT84qO5C3sjfj8G8hIKA:after {
+    content: 'Using your controller, enter your 6-digit PIN.';
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 2.3em;
+    font-weight: 500;
+    vertical-align: middle;
+    color: var(--lt-cls-ct)
+}
+/* Incorrect pin (Currently very broken) */
+.OmybPci28zjdK4Lh6uPDx {
+    display: none;
+    position: absolute;
+    color: var(--lt-cls-et) !important;
+    background: var(--lt-cls-ibg-parse);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    border-radius: var(--lt-cls-ro);
+    backdrop-filter: blur(var(--lt-cls-blur));
+}
+
+

@@ -1,0 +1,6 @@
+:root {
+    --lt-cls-ibg-parse: rgba(var(--ctp-base-rgb)var(--lt-cls-opacity));
+    --lt-cls-ui: var(--ctp-text);
+    --lt-cls-fi: var(--ctp-text);
+    --lt-cls-ct: var(--ctp-subtext1);
+}

@@ -1,0 +1,304 @@
+{
+	"name": "Clean Lock Screen",
+	"author": "Luna-Terra-CG",
+	"target": "Lock Screen",
+	"version": "v1.0",
+	"description": "An extremely minimal lock screen inspired by 'Capylock'",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Colors": {
+			"type": "dropdown",
+			"default": "Default",
+			"values": {
+				"Default": {
+					"default_colors.css": [
+						"SP"
+					]
+				},
+				"Catppuccin": {
+					"catppuccin.css": [
+						"SP"
+					]
+				},
+				"Custom": {
+					"--lt-cls-ibg-parse": [
+						"var(--lt-cls-ibg)",
+						"SP"
+					],
+					"--lt-cls-ct": [
+						"#b8bcbf",
+						"SP"
+					]
+				}
+			},
+			"components": [
+				{
+					"name": "Input Background",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "hsl(240, 21%, 15%)",
+					"css_variable": "lt-cls-ibg",
+					"tabs": [
+						"SP"
+					]
+				},
+				{
+					"name": "Unfilled Indicator",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "hsl(217, 92%, 76%)",
+					"css_variable": "lt-cls-ui",
+					"tabs": [
+						"SP"
+					]
+				},
+				{
+					"name": "Filled Indicator",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "hsl(267, 84%, 81%)",
+					"css_variable": "lt-cls-fi",
+					"tabs": [
+						"SP"
+					]
+				},
+				{
+					"name": "Error Text",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "hsl(347, 87%, 44%)",
+					"css_variable": "lt-cls-et",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		},
+		"Background": {
+			"type": "dropdown",
+			"default": "Solid Color",
+			"values": {
+				"Solid Color": {},
+				"Image": {}
+			},
+			"components": [
+				{
+					"name": "Background Color",
+					"type": "color-picker",
+					"on": "Solid Color",
+					"default": "hsl(220, 23%, 95%)",
+					"css_variable": "lt-cls-bg",
+					"tabs": [
+						"SP"
+					]
+				},
+				{
+					"name": "Background Image",
+					"type": "image-picker",
+					"on": "Image",
+					"default": "Clean Lock Screen/default.png",
+					"css_variable": "lt-cls-bg",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		},
+		"Ignore Footer": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"no_footer.css": [
+						"SP"
+					]
+				},
+				"No": {
+					"yes_footer.css": [
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Background Blur": {
+			"type": "slider",
+			"default": "10px",
+			"values": {
+				"None": {
+					"--lt-cls-blur": [
+						"0px",
+						"SP"
+					]
+				},
+				"3px": {
+					"--lt-cls-blur": [
+						"3px",
+						"SP"
+					]
+				},
+				"5px": {
+					"--lt-cls-blur": [
+						"5px",
+						"SP"
+					]
+				},
+				"10px": {
+					"--lt-cls-blur": [
+						"10px",
+						"SP"
+					]
+				},
+				"15px": {
+					"--lt-cls-blur": [
+						"15px",
+						"SP"
+					]
+				},
+				"20px": {
+					"--lt-cls-blur": [
+						"20px",
+						"SP"
+					]
+				},
+				"30px": {
+					"--lt-cls-blur": [
+						"30px",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Background Opacity": {
+			"type": "slider",
+			"default": "0.8",
+			"values": {
+				"1": {
+					"--lt-cls-opacity": [
+						", 1",
+						"SP"
+					]
+				},
+				"0.9": {
+					"--lt-cls-opacity": [
+						", 0.9",
+						"SP"
+					]
+				},
+				"0.8": {
+					"--lt-cls-opacity": [
+						", 0.8",
+						"SP"
+					]
+				},
+				"0.7": {
+					"--lt-cls-opacity": [
+						", 0.7",
+						"SP"
+					]
+				},
+				"0.6": {
+					"--lt-cls-opacity": [
+						", 0.6",
+						"SP"
+					]
+				},
+				"0.5": {
+					"--lt-cls-opacity": [
+						", 0.5",
+						"SP"
+					]
+				},
+				"0.4": {
+					"--lt-cls-opacity": [
+						", 0.4",
+						"SP"
+					]
+				},
+				"0.3": {
+					"--lt-cls-opacity": [
+						", 0.3",
+						"SP"
+					]
+				},
+				"0.2": {
+					"--lt-cls-opacity": [
+						", 0.2",
+						"SP"
+					]
+				},
+				"0.1": {
+					"--lt-cls-opacity": [
+						", 0.1",
+						"SP"
+					]
+				},
+				"0": {
+					"--lt-cls-opacity": [
+						", 0",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Input Roundness": {
+			"type": "slider",
+			"default": "30px",
+			"values": {
+				"None": {
+					"--lt-cls-ro": [
+						"0px",
+						"SP"
+					]
+				},
+				"3px": {
+					"--lt-cls-ro": [
+						"3px",
+						"SP"
+					]
+				},
+				"5px": {
+					"--lt-cls-ro": [
+						"5px",
+						"SP"
+					]
+				},
+				"10px": {
+					"--lt-cls-ro": [
+						"10px",
+						"SP"
+					]
+				},
+				"15px": {
+					"--lt-cls-ro": [
+						"15px",
+						"SP"
+					]
+				},
+				"20px": {
+					"--lt-cls-ro": [
+						"20px",
+						"SP"
+					]
+				},
+				"30px": {
+					"--lt-cls-ro": [
+						"30px",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		}
+	}
+}
