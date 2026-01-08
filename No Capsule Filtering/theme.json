@@ -1,9 +1,9 @@
 {
-	"name": "No Capsule Filter",
+	"name": "No Capsule Filtering",
 	"author": "Luna-Terra-CG",
 	"target": "Tweak",
 	"version": "v1.0",
-	"description": "",
+	"description": "This theme removes the slight lightening effect seen when highlighting a game",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [

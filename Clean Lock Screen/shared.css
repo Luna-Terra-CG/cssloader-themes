@@ -8,17 +8,17 @@
     border-radius: var(--lt-cls-ro);
 }
 .lockscreen_Container_3rFFU {
-    background: var(--lt-cls-bg);
-    background-size: cover;
+    background: var(--lt-cls-bg) !important;
+    background-size: cover !important;
 }
 /* Input Dots */
 ._duAGi5fn_DigitIndicator{
-    border-color: var(--lt-cls-ui);
-    background: rgba(0, 0, 0, 0);
+    border-color: var(--lt-cls-ui) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
 ._duAGi5fn_DigitIndicator._duAGi5fn_Filled {
-    border-color: var(--lt-cls-fi);
-    background: var(--lt-cls-fi);
+    border-color: var(--lt-cls-fi) !important;
+    background: var(--lt-cls-fi) !important;
 }
 
 /* Profile picture */
