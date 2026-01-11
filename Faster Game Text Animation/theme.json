@@ -1,0 +1,15 @@
+{
+	"name": "Faster Game Text Animation",
+	"author": "Luna-Terra-CG",
+	"target": "Snippet",
+	"version": "v1.0",
+	"description": "Speeds up the game text animation",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
