@@ -3,6 +3,10 @@
     backdrop-filter: blur(var(--lt-cls-blur));
     background: var(--lt-cls-ibg-parse);
 }
+/* Input Padding */
+.lockscreen_Indicators_3fJq6 {
+    padding: 13px 14px;
+}
 /* Input Roundness */
 .lockscreen_Indicators_3fJq6 {
     border-radius: var(--lt-cls-ro);
@@ -14,7 +18,7 @@
 /* Input Dots */
 ._duAGi5fn_DigitIndicator{
     border-color: var(--lt-cls-ui) !important;
-    background: rgba(0, 0, 0, 0) !important;
+    background: transparent !important;
 }
 ._duAGi5fn_DigitIndicator._duAGi5fn_Filled {
     border-color: var(--lt-cls-fi) !important;
@@ -25,16 +29,35 @@
 .lockscreen_Details_aLaNw > div img {
     display: none;
 }
+/* Input numbers */
+.lockscreen_NumericButtonOption_2c4Hz > img {
+    display: none;
+}
+._2wl_hk5SjW9COBW6DRQrTf {
+    gap: 0px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+._2c4Hz8Y8kYqeq1W1Jeq52q {
+    gap: 0px;
+    padding: 0px;
+    font-size: 0px;
+    font-weight: 1;
+    border-radius: 0px;
+}
 /* Panel Background */
 .aLaNwAEcdBFnXVdc4Nzix ._1Ewy74JD3THErSWk9wSliJ {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     background: var(--lt-cls-ibg-parse);
     backdrop-filter: blur(var(--lt-cls-blur));
     width: 100%;
-    height: 40px;
-    min-height: 40px;
-    max-height: 40px;
+    height: var(--basicui-header-height);
+    min-height: var(--basicui-header-height);
+    max-height: var(--basicui-header-height);
     vertical-align: top;
     align-items: start;
 }

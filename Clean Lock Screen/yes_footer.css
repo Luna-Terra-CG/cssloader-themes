@@ -1,14 +1,8 @@
-/* padding */
-.lockscreen_Indicators_3fJq6 {
-  padding: 13px 14px;
-}
 /* positioning */
 .aLaNwAEcdBFnXVdc4Nzix ._3fJq6rBJ7S5sNtyQfIfgoF {
   position: fixed;
-  bottom: 10vh;
+  bottom: calc(var(--gamepadui-current-footer-height) + 2vh);
   margin-right: auto;
   margin-left: auto;
 }
-.lockscreen_NumericButtonInput_2wl_h {
-  display: none;
-}
+
