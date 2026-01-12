@@ -2,7 +2,7 @@
 	"name": "Clean Lock Screen",
 	"author": "Luna-Terra-CG",
 	"target": "Lock Screen",
-	"version": "v1.0",
+	"version": "v1.1",
 	"description": "An extremely minimal lock screen inspired by 'Capylock'",
 	"manifest_version": 5,
 	"inject": {
