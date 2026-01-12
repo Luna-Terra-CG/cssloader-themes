@@ -88,17 +88,9 @@
     vertical-align: middle;
     color: var(--lt-cls-ct)
 }
-/* Incorrect pin (Currently very broken) */
+/* Incorrect pin */
 .OmybPci28zjdK4Lh6uPDx {
     display: none;
-    position: absolute;
-    color: var(--lt-cls-et) !important;
-    background: var(--lt-cls-ibg-parse);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 15px;
-    border-radius: var(--lt-cls-ro);
-    backdrop-filter: blur(var(--lt-cls-blur));
 }
 
 
