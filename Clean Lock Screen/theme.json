@@ -110,24 +110,7 @@
 				}
 			]
 		},
-		"Ignore Footer": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"no_footer.css": [
-						"SP"
-					]
-				},
-				"No": {
-					"yes_footer.css": [
-						"SP"
-					]
-				}
-			},
-			"components": []
-		},
-		"Background Blur": {
+		"UI Background Blur": {
 			"type": "slider",
 			"default": "10px",
 			"values": {
@@ -176,7 +159,7 @@
 			},
 			"components": []
 		},
-		"Background Opacity": {
+		"UI Background Opacity": {
 			"type": "slider",
 			"default": "0.8",
 			"values": {
@@ -249,7 +232,7 @@
 			},
 			"components": []
 		},
-		"Input Roundness": {
+		"Input Panel Roundness": {
 			"type": "slider",
 			"default": "30px",
 			"values": {
