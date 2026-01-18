@@ -1,3 +1,10 @@
+/* Wallpaper */
+.lockscreen_Container_3rFFU {
+    background: var(--lt-cls-bg) !important;
+    background-image: var(--lt-cls-bg);
+    background-size: var(--lt-cls-bgsize) !important;
+    background-repeat: var(--lt-cls-bgrepeat);
+}
 /* Input Background */
 ._3fJq6rBJ7S5sNtyQfIfgoF {
     backdrop-filter: blur(var(--lt-cls-blur));
@@ -14,13 +21,9 @@
 .lockscreen_Indicators_3fJq6 {
     padding: 13px 14px;
 }
-/* Input Roundness */
+/* Input Corner Roundness */
 .lockscreen_Indicators_3fJq6 {
     border-radius: var(--lt-cls-ro);
-}
-.lockscreen_Container_3rFFU {
-    background: var(--lt-cls-bg) !important;
-    background-size: cover !important;
 }
 /* Input Dots */
 ._duAGi5fn_DigitIndicator{
@@ -31,7 +34,6 @@
     border-color: var(--lt-cls-fi) !important;
     background: var(--lt-cls-fi) !important;
 }
-
 /* Profile picture */
 .lockscreen_Details_aLaNw > div img {
     display: none;
@@ -88,7 +90,7 @@
     vertical-align: middle;
     color: var(--lt-cls-ct)
 }
-/* Incorrect pin */
+/* Incorrect pin (Currently disabled) */
 .OmybPci28zjdK4Lh6uPDx {
     display: none;
 }

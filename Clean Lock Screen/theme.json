@@ -30,10 +30,6 @@
 					"--lt-cls-ibg-parse": [
 						"var(--lt-cls-ibg)",
 						"SP"
-					],
-					"--lt-cls-ct": [
-						"#b8bcbf",
-						"SP"
 					]
 				}
 			},
@@ -69,23 +65,42 @@
 					]
 				},
 				{
-					"name": "Error Text",
+					"name": "Custom Text",
 					"type": "color-picker",
 					"on": "Custom",
 					"default": "hsl(347, 87%, 44%)",
-					"css_variable": "lt-cls-et",
+					"css_variable": "lt-cls-ct",
 					"tabs": [
 						"SP"
 					]
 				}
 			]
 		},
-		"Background": {
+		"Background Type": {
 			"type": "dropdown",
 			"default": "Solid Color",
 			"values": {
 				"Solid Color": {},
-				"Image": {}
+				"Image": {
+					"--lt-cls-bgsize": [
+						"cover",
+						"SP"
+					],
+					"--lt-cls-bgrepeat": [
+						"no-repeat",
+						"SP"
+					]
+				},
+				"Tiled Image": {
+					"--lt-cls-bgsize": [
+						"auto",
+						"SP"
+					],
+					"--lt-cls-bgrepeat": [
+						"repeat",
+						"SP"
+					]
+				}
 			},
 			"components": [
 				{
@@ -102,6 +117,16 @@
 					"name": "Background Image",
 					"type": "image-picker",
 					"on": "Image",
+					"default": "Clean Lock Screen/default.png",
+					"css_variable": "lt-cls-bg",
+					"tabs": [
+						"SP"
+					]
+				},
+				{
+					"name": "Tiled Background Image",
+					"type": "image-picker",
+					"on": "Tiled Image",
 					"default": "Clean Lock Screen/default.png",
 					"css_variable": "lt-cls-bg",
 					"tabs": [
@@ -232,7 +257,7 @@
 			},
 			"components": []
 		},
-		"Input Panel Roundness": {
+		"Corner Roundness": {
 			"type": "slider",
 			"default": "30px",
 			"values": {
