@@ -38,7 +38,7 @@
 					"name": "Input Background",
 					"type": "color-picker",
 					"on": "Custom",
-					"default": "hsl(240, 21%, 15%)",
+					"default": "#000",
 					"css_variable": "lt-cls-ibg",
 					"tabs": [
 						"SP"
@@ -48,7 +48,7 @@
 					"name": "Unfilled Indicator",
 					"type": "color-picker",
 					"on": "Custom",
-					"default": "hsl(217, 92%, 76%)",
+					"default": "#67707b",
 					"css_variable": "lt-cls-ui",
 					"tabs": [
 						"SP"
@@ -58,7 +58,7 @@
 					"name": "Filled Indicator",
 					"type": "color-picker",
 					"on": "Custom",
-					"default": "hsl(267, 84%, 81%)",
+					"default": "#fff",
 					"css_variable": "lt-cls-fi",
 					"tabs": [
 						"SP"
@@ -68,7 +68,7 @@
 					"name": "Custom Text",
 					"type": "color-picker",
 					"on": "Custom",
-					"default": "hsl(347, 87%, 44%)",
+					"default": "#b8bcbf",
 					"css_variable": "lt-cls-ct",
 					"tabs": [
 						"SP"
