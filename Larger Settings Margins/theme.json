@@ -1,0 +1,15 @@
+{
+	"name": "Larger Settings Margins",
+	"author": "Luna-Terra-CG",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "This adds more padding to the bottom of settings menus so options and text don't get cut off by the footer when at the bottom of the page.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
