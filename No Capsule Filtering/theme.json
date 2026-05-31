@@ -2,7 +2,7 @@
   "name": "No Capsule Filtering",
   "author": "Luna-Terra-CG",
   "version": "v1.1",
-  "manifest_version": 5,
+  "manifest_version": 9,
   "inject": {
     "shared.css": [
       "SP"
