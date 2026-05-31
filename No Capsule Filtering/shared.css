@@ -1,9 +1,8 @@
-.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
-    filter: none !important;
-}
-.WYgDg9NyCcMIVuMyZ_NBC {
-    filter: none !important;
+.WYgDg9NyCcMIVuMyZ_NBC:not(._3VPnvw_CDKU-PQKK1pSDlN) {
+    filter: none;
 }
 .BasicUI .WYgDg9NyCcMIVuMyZ_NBC::after {
     background: transparent;
 }
+
+

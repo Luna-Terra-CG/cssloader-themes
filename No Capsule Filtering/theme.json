@@ -1,15 +1,14 @@
 {
-	"name": "No Capsule Filtering",
-	"author": "Luna-Terra-CG",
-	"target": "Tweak",
-	"version": "v1.0",
-	"description": "This theme removes the slight lightening effect seen when highlighting a game",
-	"manifest_version": 5,
-	"inject": {
-		"shared.css": [
-			"SP"
-		]
-	},
-	"dependencies": {},
-	"patches": {}
+  "name": "No Capsule Filtering",
+  "author": "Luna-Terra-CG",
+  "version": "v1.1",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "dependencies": {},
+  "patches": {},
+  "id": "541e4901-3edf-43d2-bb0f-214c2accb475"
 }
